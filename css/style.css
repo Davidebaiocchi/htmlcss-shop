@@ -23,7 +23,6 @@ img{
     height: 289px;
     width: 200px;
     display: inline-block;
-    po
 }
 
 
@@ -32,6 +31,7 @@ img{
 
 .box:hover .origin {
     display: none;
+    
 }
 
 .effetto {

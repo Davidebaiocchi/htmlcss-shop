@@ -8,3 +8,101 @@
 .container {
  text-align: center;
 }
+
+
+
+
+/* immagini */
+
+.box {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+img{
+    height: 289px;
+    width: 200px;
+    display: inline-block;
+    po
+}
+
+
+
+/* transizioni */
+
+.box:hover .origin {
+    display: none;
+}
+
+.effetto {
+    display: none;
+}
+
+.box:hover .effetto {
+    display: block;
+    cursor: pointer;
+}
+
+/* descrizioni capi */
+
+.description {
+    width: 200px;
+    text-align: left;
+}
+.banner::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.img1 {
+    position: relative;
+
+}
+  
+.sconto {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: rgb(252, 0, 0);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+
+
+  .sosten {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: rgb(34, 202, 0);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+  }
+.sosten2 {
+    position: absolute;
+    bottom: 10px;
+    left: 42px;
+    background-color: rgb(34, 202, 0);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
+.cuore {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 28px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+   
+}
